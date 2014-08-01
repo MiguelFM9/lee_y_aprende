@@ -10,6 +10,9 @@ import beans.BeanArea;
 import beans.BeanAutor;
 import beans.BeanEditorial;
 import beans.BeanLibro;
+import daos.DaoArea;
+import daos.DaoAutor;
+import daos.DaoEditorial;
 import daos.DaoLibro;
 import java.util.List;
 import javax.swing.DefaultComboBoxModel;
@@ -424,20 +427,30 @@ public class Libro extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel8KeyPressed
 
     private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
+        DaoEditorial daoEditorial= new DaoEditorial();
+        BeanEditorial beanEditorial = new BeanEditorial();
+        String editorial=JOptionPane.showInputDialog("Ingrese el nombre de la editorial a registrar");
+        beanEditorial.setNombre(editorial);
+        daoEditorial.registrarEditorial(beanEditorial);
         
-        Editorial editorial = new Editorial();
-        editorial.setVisible(true);
     }//GEN-LAST:event_jLabel8MouseClicked
 
     private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
         // TODO add your handling code here:
-        Area area = new Area();
-        area.setVisible(true);
+        DaoArea daoArea = new DaoArea();
+        BeanArea beanArea = new BeanArea();
+        String area = JOptionPane.showInputDialog("Ingresa el nombre del area a registrar");
+        beanArea.setNombre(area);
+        daoArea.registrarArea(beanArea);
     }//GEN-LAST:event_jLabel9MouseClicked
 
     private void jLabel11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseClicked
+        DaoAutor daoAutor= new DaoAutor();
+        BeanAutor beanAutor= new BeanAutor();
+        String autor=JOptionPane.showInputDialog("Ingresa el nombre del autor a registrar");
+        beanAutor.setNombre(autor);
+        daoAutor.registrarAutor(beanAutor);
         
-        new Autor().setVisible(true);
     }//GEN-LAST:event_jLabel11MouseClicked
 
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
