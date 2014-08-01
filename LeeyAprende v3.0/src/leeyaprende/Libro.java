@@ -138,6 +138,7 @@ public class Libro extends javax.swing.JFrame {
 
         jLabel8.setForeground(new java.awt.Color(51, 51, 255));
         jLabel8.setText("¿Editorial no encontrada?");
+        jLabel8.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel8MouseClicked(evt);
@@ -151,6 +152,7 @@ public class Libro extends javax.swing.JFrame {
 
         jLabel9.setForeground(new java.awt.Color(51, 51, 255));
         jLabel9.setText("¿Área no encontrada?");
+        jLabel9.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel9.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel9MouseClicked(evt);
@@ -163,6 +165,7 @@ public class Libro extends javax.swing.JFrame {
 
         jLabel11.setForeground(new java.awt.Color(51, 51, 255));
         jLabel11.setText("¿Autor no encontrado?");
+        jLabel11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel11MouseClicked(evt);
@@ -248,6 +251,7 @@ public class Libro extends javax.swing.JFrame {
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/7.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setToolTipText("");
+        btnGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnGuardar.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         btnGuardar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -258,6 +262,7 @@ public class Libro extends javax.swing.JFrame {
 
         btnIngresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5.png"))); // NOI18N
         btnIngresar.setText("Ingresar");
+        btnIngresar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnIngresar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnIngresar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -267,6 +272,7 @@ public class Libro extends javax.swing.JFrame {
 
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/1.png"))); // NOI18N
         btnEliminar.setText("Eliminar");
+        btnEliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnEliminar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -276,14 +282,22 @@ public class Libro extends javax.swing.JFrame {
 
         btnEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/11.png"))); // NOI18N
         btnEditar.setText("Editar");
+        btnEditar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnEditar.setPreferredSize(new java.awt.Dimension(90, 40));
+        btnEditar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEditarActionPerformed(evt);
+            }
+        });
 
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/7_1.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
+        btnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCancelar.setPreferredSize(new java.awt.Dimension(90, 40));
 
         btnBuscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/6.png"))); // NOI18N
         btnBuscar.setText("Buscar");
+        btnBuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBuscar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnBuscar.setRequestFocusEnabled(false);
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
@@ -294,6 +308,7 @@ public class Libro extends javax.swing.JFrame {
 
         btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/14.png"))); // NOI18N
         btnMenu.setText("Menú");
+        btnMenu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenu.setPreferredSize(new java.awt.Dimension(90, 40));
         btnMenu.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -308,6 +323,7 @@ public class Libro extends javax.swing.JFrame {
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5_1.png"))); // NOI18N
         btnSalir.setText("Salir");
+        btnSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSalir.setPreferredSize(new java.awt.Dimension(90, 40));
         btnSalir.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -452,32 +468,25 @@ public class Libro extends javax.swing.JFrame {
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // TODO add your handling code here:
-        this.txtIsbn.setEnabled(false);
-        this.txtPag.setEnabled(false);
-        this.txtTitulo.setEnabled(false);
-        this.cmbAutor.setEnabled(false);
-        this.cmbArea.setEnabled(false);
-        this.cmbEditorial.setEnabled(false);
-        this.btnBuscar.setEnabled(false);
+    
         this.btnGuardar.setEnabled(false);
-        this.btnEliminar.setEnabled(false);
-        this.btnEditar.setEnabled(false);
-        this.btnCancelar.setEnabled(false);
+     
     }//GEN-LAST:event_formWindowOpened
 
     private void btnIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIngresarActionPerformed
         // TODO add your handling code here:
-        this.txtIsbn.setEnabled(true);
-        this.txtPag.setEnabled(true);
-        this.txtTitulo.setEnabled(true);
-        this.cmbAutor.setEnabled(true);
-        this.cmbArea.setEnabled(true);
-        this.cmbEditorial.setEnabled(true);
-        this.btnBuscar.setEnabled(true);
-        this.btnGuardar.setEnabled(true);
-        this.btnEliminar.setEnabled(true);
-        this.btnEditar.setEnabled(true);
-        this.btnCancelar.setEnabled(true);
+  BeanAutor beanAutor=listaAutor.get(cmbAutor.getSelectedIndex());
+        BeanArea beanArea=listaArea.get(cmbArea.getSelectedIndex());
+        BeanEditorial beanEditorial=listaEditorial.get(cmbEditorial.getSelectedIndex());
+        BeanLibro beanLibro= new BeanLibro(txtIsbn.getText(), txtTitulo.getText(), Integer.parseInt(txtPag.getText()), beanEditorial, beanArea,beanAutor);
+        daoLibro.registrarLibro(beanLibro);
+        txtIsbn.setText("");
+        txtTitulo.setText("");
+        txtPag.setText("");
+        cmbArea.setSelectedIndex(0);
+        cmbEditorial.setSelectedIndex(0);
+        cmbAutor.setSelectedIndex(0);
+        JOptionPane.showMessageDialog(rootPane, "El Registro se a realizado correctamente");
     }//GEN-LAST:event_btnIngresarActionPerformed
 
     private void cmbEditorialActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbEditorialActionPerformed
@@ -503,7 +512,13 @@ public class Libro extends javax.swing.JFrame {
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
         // TODO add your handling code here:
          new BusquedaLibro().setVisible(true);
+          
     }//GEN-LAST:event_btnBuscarActionPerformed
+
+    private void btnEditarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarActionPerformed
+        // TODO add your handling code here:
+        btnGuardar.setEnabled(true);
+    }//GEN-LAST:event_btnEditarActionPerformed
 
     /**
      * @param args the command line arguments

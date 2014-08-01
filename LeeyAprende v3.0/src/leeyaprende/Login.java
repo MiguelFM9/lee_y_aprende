@@ -57,6 +57,7 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setText("Contraseña:");
 
         btnaceptar.setText("Aceptar");
+        btnaceptar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnaceptar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnaceptarMouseClicked(evt);
@@ -74,6 +75,7 @@ public class Login extends javax.swing.JFrame {
         });
 
         btncancelar.setText("Cancelar");
+        btncancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btncancelar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btncancelarMouseClicked(evt);

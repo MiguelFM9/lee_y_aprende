@@ -71,6 +71,7 @@ public class Inicio extends javax.swing.JFrame {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/2.png"))); // NOI18N
         jLabel3.setText("Acceder Administrador");
+        jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel3MouseClicked(evt);
@@ -84,6 +85,7 @@ public class Inicio extends javax.swing.JFrame {
         jLabel2.setText("Buscar Libro");
 
         jButton1.setText("Buscar");
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -92,6 +94,7 @@ public class Inicio extends javax.swing.JFrame {
 
         grupoSeleccion.add(chkAutor);
         chkAutor.setText("Autor");
+        chkAutor.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         chkAutor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chkAutorActionPerformed(evt);
@@ -101,7 +104,7 @@ public class Inicio extends javax.swing.JFrame {
         grupoSeleccion.add(chkTitulo);
         chkTitulo.setText("Título");
         chkTitulo.setContentAreaFilled(false);
-        chkTitulo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        chkTitulo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         chkTitulo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chkTituloActionPerformed(evt);
@@ -110,6 +113,7 @@ public class Inicio extends javax.swing.JFrame {
 
         grupoSeleccion.add(chkIsbn);
         chkIsbn.setText("ISBN");
+        chkIsbn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         chkIsbn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chkIsbnActionPerformed(evt);
@@ -118,6 +122,7 @@ public class Inicio extends javax.swing.JFrame {
 
         grupoSeleccion.add(chkEditorial);
         chkEditorial.setText("Editorial");
+        chkEditorial.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

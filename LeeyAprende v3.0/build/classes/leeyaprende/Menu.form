@@ -84,6 +84,9 @@
         <Menu class="javax.swing.JMenu" name="Usuario">
           <Properties>
             <Property name="text" type="java.lang.String" value="Usuarios"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="agregarUsuario">
@@ -95,6 +98,9 @@
                   <Image iconType="3" name="/imagenes/2_1.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar nuevo usuario"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="agregarUsuarioMouseClicked"/>
@@ -110,6 +116,9 @@
                   <Image iconType="3" name="/imagenes/8.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Consultar usuarios"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultarUsuariosActionPerformed"/>
@@ -120,6 +129,9 @@
         <Menu class="javax.swing.JMenu" name="Libro">
           <Properties>
             <Property name="text" type="java.lang.String" value="Libros"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="agregarLibro">
@@ -131,6 +143,9 @@
                   <Image iconType="3" name="/imagenes/5_2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar nuevo libro"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarLibroActionPerformed"/>
@@ -145,6 +160,9 @@
                   <Image iconType="3" name="/imagenes/8.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Consultar libros"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultarLibroActionPerformed"/>
@@ -155,6 +173,9 @@
         <Menu class="javax.swing.JMenu" name="editoriales">
           <Properties>
             <Property name="text" type="java.lang.String" value="Editoriales"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="agregarEditorial">
@@ -166,6 +187,9 @@
                   <Image iconType="3" name="/imagenes/5_2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar nueva editorial"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarEditorialActionPerformed"/>
@@ -180,6 +204,9 @@
                   <Image iconType="3" name="/imagenes/8.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Consultar editoriales"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultarEditorialActionPerformed"/>
@@ -190,6 +217,9 @@
         <Menu class="javax.swing.JMenu" name="autor">
           <Properties>
             <Property name="text" type="java.lang.String" value="Autores"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="agregarAutor">
@@ -201,6 +231,9 @@
                   <Image iconType="3" name="/imagenes/5_2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar nuevo autor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarAutorActionPerformed"/>
@@ -215,6 +248,9 @@
                   <Image iconType="3" name="/imagenes/8.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Consultar autores"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cosnultarAutoresActionPerformed"/>
@@ -225,6 +261,9 @@
         <Menu class="javax.swing.JMenu" name="area">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xc1;reas"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="agregarArea">
@@ -236,6 +275,9 @@
                   <Image iconType="3" name="/imagenes/5_2.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar nueva &#xe1;rea"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarAreaActionPerformed"/>
@@ -250,6 +292,9 @@
                   <Image iconType="3" name="/imagenes/8.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Consultar &#xe1;reas"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultarAreaActionPerformed"/>
@@ -260,6 +305,9 @@
         <Menu class="javax.swing.JMenu" name="prestamo">
           <Properties>
             <Property name="text" type="java.lang.String" value="Prestamos"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="agragarPrestamo">
@@ -271,6 +319,9 @@
                   <Image iconType="3" name="/imagenes/6_1.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Agregar nuevo prestamo"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agragarPrestamoActionPerformed"/>
@@ -285,6 +336,9 @@
                   <Image iconType="3" name="/imagenes/8.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Consultar prestamos"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultarPrestamoActionPerformed"/>
@@ -295,6 +349,9 @@
         <Menu class="javax.swing.JMenu" name="jMenu13">
           <Properties>
             <Property name="text" type="java.lang.String" value="Multas"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem17">
@@ -306,6 +363,9 @@
                   <Image iconType="3" name="/imagenes/13.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Consultar multas"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de Mano"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem17ActionPerformed"/>
@@ -316,6 +376,9 @@
         <Menu class="javax.swing.JMenu" name="jMenu7">
           <Properties>
             <Property name="text" type="java.lang.String" value="Cerrar sesi&#xf3;n"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jMenu7MouseClicked"/>

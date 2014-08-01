@@ -57,6 +57,7 @@ public class ConsultarAreas extends javax.swing.JFrame {
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5_1.png"))); // NOI18N
         btnSalir.setText("Salir");
+        btnSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSalir.setPreferredSize(new java.awt.Dimension(90, 40));
         btnSalir.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

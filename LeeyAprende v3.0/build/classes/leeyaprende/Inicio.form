@@ -96,6 +96,9 @@
           <Image iconType="3" name="/imagenes/2.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Acceder Administrador"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de Mano"/>
+        </Property>
       </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel3MouseClicked"/>
@@ -187,6 +190,9 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="text" type="java.lang.String" value="Buscar"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
@@ -198,6 +204,9 @@
               <ComponentRef name="grupoSeleccion"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Autor"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkAutorActionPerformed"/>
@@ -211,7 +220,7 @@
             <Property name="text" type="java.lang.String" value="T&#xed;tulo"/>
             <Property name="contentAreaFilled" type="boolean" value="false"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-              <Color id="Cursor Por defecto"/>
+              <Color id="Cursor de Mano"/>
             </Property>
           </Properties>
           <Events>
@@ -224,6 +233,9 @@
               <ComponentRef name="grupoSeleccion"/>
             </Property>
             <Property name="text" type="java.lang.String" value="ISBN"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkIsbnActionPerformed"/>
@@ -235,6 +247,9 @@
               <ComponentRef name="grupoSeleccion"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Editorial"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor de Mano"/>
+            </Property>
           </Properties>
         </Component>
       </SubComponents>

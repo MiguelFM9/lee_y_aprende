@@ -94,11 +94,12 @@ public class Editorial extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Opciones", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(0, 0, 0)));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones"));
 
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/7.png"))); // NOI18N
         btnGuardar.setText("Guardar");
         btnGuardar.setToolTipText("");
+        btnGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnGuardar.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         btnGuardar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
@@ -109,6 +110,7 @@ public class Editorial extends javax.swing.JFrame {
 
         btnIngresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5.png"))); // NOI18N
         btnIngresar.setText("Ingresar");
+        btnIngresar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnIngresar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnIngresar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -118,6 +120,7 @@ public class Editorial extends javax.swing.JFrame {
 
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/1.png"))); // NOI18N
         btnEliminar.setText("Eliminar");
+        btnEliminar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnEliminar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,6 +130,7 @@ public class Editorial extends javax.swing.JFrame {
 
         btnEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/11.png"))); // NOI18N
         btnEditar.setText("Editar");
+        btnEditar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnEditar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,10 +140,12 @@ public class Editorial extends javax.swing.JFrame {
 
         btnCancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/7_1.png"))); // NOI18N
         btnCancelar.setText("Cancelar");
+        btnCancelar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnCancelar.setPreferredSize(new java.awt.Dimension(90, 40));
 
         btnBuscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/6.png"))); // NOI18N
         btnBuscar.setText("Buscar");
+        btnBuscar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBuscar.setPreferredSize(new java.awt.Dimension(90, 40));
         btnBuscar.setRequestFocusEnabled(false);
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
@@ -150,6 +156,7 @@ public class Editorial extends javax.swing.JFrame {
 
         btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/14.png"))); // NOI18N
         btnMenu.setText("Menú");
+        btnMenu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenu.setPreferredSize(new java.awt.Dimension(90, 40));
         btnMenu.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -164,6 +171,7 @@ public class Editorial extends javax.swing.JFrame {
 
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5_1.png"))); // NOI18N
         btnSalir.setText("Salir");
+        btnSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSalir.setPreferredSize(new java.awt.Dimension(90, 40));
         btnSalir.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

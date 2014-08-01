@@ -97,10 +97,12 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo.png"))); // NOI18N
 
         Usuario.setText("Usuarios");
+        Usuario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         agregarUsuario.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_U, java.awt.event.InputEvent.CTRL_MASK));
         agregarUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/2_1.png"))); // NOI18N
         agregarUsuario.setText("Agregar nuevo usuario");
+        agregarUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         agregarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 agregarUsuarioMouseClicked(evt);
@@ -116,6 +118,7 @@ public class Menu extends javax.swing.JFrame {
         consultarUsuarios.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_Z, java.awt.event.InputEvent.CTRL_MASK));
         consultarUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/8.png"))); // NOI18N
         consultarUsuarios.setText("Consultar usuarios");
+        consultarUsuarios.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         consultarUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 consultarUsuariosActionPerformed(evt);
@@ -126,10 +129,12 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(Usuario);
 
         Libro.setText("Libros");
+        Libro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         agregarLibro.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_MASK));
         agregarLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5_2.png"))); // NOI18N
         agregarLibro.setText("Agregar nuevo libro");
+        agregarLibro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         agregarLibro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarLibroActionPerformed(evt);
@@ -140,6 +145,7 @@ public class Menu extends javax.swing.JFrame {
         consultarLibro.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.CTRL_MASK));
         consultarLibro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/8.png"))); // NOI18N
         consultarLibro.setText("Consultar libros");
+        consultarLibro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         consultarLibro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 consultarLibroActionPerformed(evt);
@@ -150,10 +156,12 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(Libro);
 
         editoriales.setText("Editoriales");
+        editoriales.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         agregarEditorial.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.CTRL_MASK));
         agregarEditorial.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5_2.png"))); // NOI18N
         agregarEditorial.setText("Agregar nueva editorial");
+        agregarEditorial.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         agregarEditorial.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarEditorialActionPerformed(evt);
@@ -164,6 +172,7 @@ public class Menu extends javax.swing.JFrame {
         consultarEditorial.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_MASK));
         consultarEditorial.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/8.png"))); // NOI18N
         consultarEditorial.setText("Consultar editoriales");
+        consultarEditorial.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         consultarEditorial.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 consultarEditorialActionPerformed(evt);
@@ -174,10 +183,12 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(editoriales);
 
         autor.setText("Autores");
+        autor.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         agregarAutor.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.CTRL_MASK));
         agregarAutor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5_2.png"))); // NOI18N
         agregarAutor.setText("Agregar nuevo autor");
+        agregarAutor.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         agregarAutor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarAutorActionPerformed(evt);
@@ -188,6 +199,7 @@ public class Menu extends javax.swing.JFrame {
         cosnultarAutores.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_V, java.awt.event.InputEvent.CTRL_MASK));
         cosnultarAutores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/8.png"))); // NOI18N
         cosnultarAutores.setText("Consultar autores");
+        cosnultarAutores.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         cosnultarAutores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cosnultarAutoresActionPerformed(evt);
@@ -198,10 +210,12 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(autor);
 
         area.setText("Áreas");
+        area.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         agregarArea.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_A, java.awt.event.InputEvent.CTRL_MASK));
         agregarArea.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/5_2.png"))); // NOI18N
         agregarArea.setText("Agregar nueva área");
+        agregarArea.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         agregarArea.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarAreaActionPerformed(evt);
@@ -212,6 +226,7 @@ public class Menu extends javax.swing.JFrame {
         consultarArea.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.CTRL_MASK));
         consultarArea.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/8.png"))); // NOI18N
         consultarArea.setText("Consultar áreas");
+        consultarArea.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         consultarArea.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 consultarAreaActionPerformed(evt);
@@ -222,10 +237,12 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(area);
 
         prestamo.setText("Prestamos");
+        prestamo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         agragarPrestamo.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_MASK));
         agragarPrestamo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/6_1.png"))); // NOI18N
         agragarPrestamo.setText("Agregar nuevo prestamo");
+        agragarPrestamo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         agragarPrestamo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agragarPrestamoActionPerformed(evt);
@@ -236,6 +253,7 @@ public class Menu extends javax.swing.JFrame {
         consultarPrestamo.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_N, java.awt.event.InputEvent.CTRL_MASK));
         consultarPrestamo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/8.png"))); // NOI18N
         consultarPrestamo.setText("Consultar prestamos");
+        consultarPrestamo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         consultarPrestamo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 consultarPrestamoActionPerformed(evt);
@@ -246,10 +264,12 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(prestamo);
 
         jMenu13.setText("Multas");
+        jMenu13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenuItem17.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_M, java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/13.png"))); // NOI18N
         jMenuItem17.setText("Consultar multas");
+        jMenuItem17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItem17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem17ActionPerformed(evt);
@@ -260,6 +280,7 @@ public class Menu extends javax.swing.JFrame {
         jMenuBar1.add(jMenu13);
 
         jMenu7.setText("Cerrar sesión");
+        jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jMenu7MouseClicked(evt);
